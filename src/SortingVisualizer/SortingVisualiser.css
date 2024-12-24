@@ -1,0 +1,30 @@
+.array-bar-container {
+  display: flex;
+  justify-content: flex-start; /* Align the bars at the left */
+  align-items: flex-end;
+  height: 90vh; /* Give enough height for the bars to display */
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.array-bar {
+  background-color: turquoise;
+  margin: 0 2px;
+  text-align: center;
+  color: black;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider {
+  width: 300px;
+}
